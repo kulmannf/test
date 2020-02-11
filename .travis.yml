@@ -1,0 +1,10 @@
+arch:
+  - s390x
+
+os: linux
+
+services:
+  - docker
+
+script:
+  - docker build .
